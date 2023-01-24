@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+img{
+  width: 40px;
+}
+.logoEmpresa{
+  width: 160px;
+}
+.imgSmall{
+  width: 30px;
+}
+.grupoTarjetas{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+}
+.tarjeta{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.cajaTitulo{
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+.espacio{
+  width: 40px;
+}
+.datoTarjeta{
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+h1{
+  background-color: rgb(231, 18, 18);
+  padding: 8px;
+  color: aliceblue;
+}
+h2{
+  display: inline;
+}
+main{
+  display: flex;
+  justify-content: space-evenly;
+  margin: 15px;
+
+}
+.cajasPago{
+ border-style: solid;
+ border-radius: 15px;
+ padding: 10px;
+ width: 30%;
+}
+
+.imgProducto{
+  width: 120px;
+}
+
+.cajaProducto{
+  display: flex;
+  justify-content: space-around;
+  margin: 15px;
+  align-items: center;
+}
+
+#botonFinalizar{
+  padding: 8px;
+  margin: 10px auto;
+  display: block;
+}
+#resultado{
+  font-weight: bolder;
+  font-size: 20px;
+}
+footer{
+  text-align: center;
+  background-color:  rgb(231, 18, 18);
+  color: aliceblue;
+  padding: 15px;
+  font-size: 20px;
+}
