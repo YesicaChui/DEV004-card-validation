@@ -3,6 +3,7 @@ import validator from './validator.js';
 function validar() {
   const divResult = document.getElementById("resultado")
   const miInput = document.getElementById("numeroTarjeta")
+  if (miInput.value === "") return alert("Por favor Ingrese el numero de tarjeta")
   const valid = validator.isValid(miInput.value)
   if (valid) {
     divResult.innerHTML = `<p>Tarjeta valida</p>

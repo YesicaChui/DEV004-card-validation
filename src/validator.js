@@ -2,7 +2,7 @@ const validator = {
   // ...
   isValid(creditCardNumber) {
     let validador = false //variable validadora
-    if (creditCardNumber === "") return validador //si esta vacio es incorrecto
+    //si esta vacio es incorrecto
     //algoritmo de Luhn
     //paso1 inversion
     const arregloInvertido = [...creditCardNumber].reverse()
@@ -23,13 +23,13 @@ const validator = {
         }
       }
     }
-    console.log(arregloInvertidoNumero)
+    //console.log(arregloInvertidoNumero)
     // paso4: sumar todas los elementos del arreglo y verificar que sea multiplo de 10
     let acumulador = 0
     for (const element of arregloInvertidoNumero) {
       acumulador = acumulador + element
     }
-    console.log(acumulador)
+    //console.log(acumulador)
     if (acumulador % 10 === 0) {
       validador = true // es valido si es multiplo de 10
     }
